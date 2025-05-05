@@ -1,0 +1,27 @@
+{
+  "name": "formbuilder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test:prompts": "tsx src/test/testRunner.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/core": "^0.3.51",
+    "dotenv": "^16.5.0",
+    "inquirer": "^12.6.0",
+    "langchain": "^0.3.24",
+    "openai": "^4.96.2",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
